@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Justine Nutsule · Cybersécurité et GRC</title>
+  <meta name="description" content="Portfolio de Justine Nutsule : licenciée en cybersécurité à Lomé, certifiée CompTIA Security+, tournée vers la GRC. Projets, parcours et blog.">
+  <meta name="theme-color" content="#FBFAF8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta property="og:title" content="Justine Nutsule · Cybersécurité et GRC">
+  <meta property="og:description" content="Licenciée en cybersécurité à Lomé, certifiée CompTIA Security+, tournée vers la GRC.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/boot.js"></script>
+</head>
+<body>
+  <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-shield" viewBox="0 0 48 48">
+        <path d="M24 4 L40 10 V22 C40 33 33 41 24 44 C15 41 8 33 8 22 V10 Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/>
+        <path d="M16 24 L22 30 L33 18" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+      <symbol id="i-lock" viewBox="0 0 48 48">
+        <rect x="10" y="21" width="28" height="21" rx="5" fill="none" stroke="currentColor" stroke-width="2.6"/>
+        <path d="M16 21 V15 a8 8 0 0 1 16 0 V21" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+        <circle cx="24" cy="31" r="2.6" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-nodes" viewBox="0 0 48 48">
+        <path d="M10 34 L24 12 L38 30 L22 41 Z M24 12 L22 41" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+        <g fill="#fff" stroke="currentColor" stroke-width="2.6"><circle cx="10" cy="34" r="4.5"/><circle cx="24" cy="12" r="4.5"/><circle cx="38" cy="30" r="4.5"/><circle cx="22" cy="41" r="4.5"/></g>
+      </symbol>
+    </defs>
+  </svg>
+  <div class="progress" aria-hidden="true"></div>
+  <a class="skip" href="#main" data-i18n="skip">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top">Justine Nutsule</a>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-i18n="nav.menu">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+        <a href="#about" data-i18n="nav.about">À propos</a>
+        <a href="#path" data-i18n="nav.path">Parcours</a>
+        <a href="#projects" data-i18n="nav.projects">Projets</a>
+        <a href="#voice" data-i18n="nav.voice">Ma voix</a>
+        <a href="#blog" data-i18n="nav.blog">Blog</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="lang" role="group" aria-label="Langue / Language">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="stage">
+          <h1 class="hero-name"><span class="script">Justine</span> <span class="giant">Nutsule</span></h1>
+
+          <div class="hero-left">
+            <p class="hero-role" data-i18n="hero.role">Licenciée en cybersécurité, tournée vers la GRC</p>
+            <p class="hero-lead" data-i18n="hero.lead">Je me spécialise en cybersécurité, des réseaux à la gouvernance des risques, et j'aime expliquer clairement ce que je fais.</p>
+            <p class="terminal" aria-label="sudo make me analyst GRC"><span class="prompt" aria-hidden="true">$</span>sudo make me analyst GRC<span class="cursor" aria-hidden="true"></span></p>
+          </div>
+
+          <div class="portrait-wrap">
+            <div class="portrait">
+              <img src="assets/img/justine-cutout.webp" width="922" height="1047" alt="Portrait de Justine Nutsule" data-i18n-alt="hero.photo">
+            </div>
+            <span class="float f-shield" aria-hidden="true"><svg viewBox="0 0 48 48"><use href="#i-shield"/></svg></span>
+            <span class="float f-lock" aria-hidden="true"><svg viewBox="0 0 48 48"><use href="#i-lock"/></svg></span>
+            <span class="float f-nodes" aria-hidden="true"><svg viewBox="0 0 48 48"><use href="#i-nodes"/></svg></span>
+          </div>
+
+          <div class="hero-right">
+            <p class="hero-actions">
+              <a class="btn btn-primary" href="#projects" data-i18n="hero.cta.projects">Voir mes projets</a>
+              <a class="btn btn-ghost" href="assets/cv/CV_Justine_Nutsule_FR.pdf" data-cv download data-i18n="hero.cta.cv">Télécharger mon CV</a>
+            </p>
+            <p id="now-badge" class="badge badge-now" data-i18n="hero.now">Stage de technicienne réseau, Lotié Télécom (2026)</p>
+            <p class="badge" data-i18n="hero.badge">Certifiée CompTIA Security+ (mai 2026)</p>
+            <p id="live" class="live" hidden></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="section edge bg-soft">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="about.title">Qui suis-je ?</h2>
+        <div class="about-grid">
+          <div class="about-main">
+            <p class="prose" data-i18n="about.p1">Je suis licenciée en cybersécurité (École Supérieure des Affaires, ESA-TG, à Lomé) et titulaire de la certification CompTIA Security+. Mon terrain d'entraînement : les tests d'intrusion en laboratoire, l'analyse de vulnérabilités, les réseaux et le contrôle d'accès, avec un projet de recherche sur le NAC et l'authentification 802.1X.</p>
+            <p class="prose" data-i18n="about.p2">Ce qui m'attire maintenant, c'est le point de rencontre entre la technique, l'analyse des risques et la GRC (gouvernance, risques et conformité). J'ai aussi une vie en dehors des terminaux : je prends la parole en public et j'écris.</p>
+            <div class="stats">
+              <p class="stat stat-navy" data-reveal="pop"><b>2</b><span data-i18n="stat.cert">certifications : CompTIA Security+ et Junior GRC Analyst</span></p>
+              <p class="stat stat-copper" data-reveal="pop"><b>3</b><span data-i18n="stat.prizes">distinctions en écriture et en art oratoire</span></p>
+              <p class="stat stat-stone" data-reveal="pop"><b>2</b><span data-i18n="stat.langs">langues de travail : français et anglais</span></p>
+            </div>
+          </div>
+          <figure class="about-photo" data-reveal="pop">
+            <div class="frame"><img src="assets/img/portrait.jpg" width="768" height="1384" alt="Portrait de Justine" data-i18n-alt="about.photo.alt"></div>
+          </figure>
+        </div>
+        <div id="skills" class="skills-block"></div>
+      </div>
+    </section>
+
+    <section id="goal" class="section edge bg-navy">
+      <div class="wrap goal-grid">
+        <div class="goal-text">
+          <h2 data-reveal data-i18n="goal.title">Mon objectif</h2>
+          <p class="prose" data-i18n="goal.p1">Devenir analyste GRC : mettre ma base en cybersécurité au service de la gouvernance, des normes et de l'analyse des risques.</p>
+          <p class="prose" data-i18n="goal.p2">Cybersécurité, normes, audits, matrices de risques : je construis les deux moitiés du métier, la technique et la gouvernance.</p>
+          <ol class="legend">
+            <li data-pin="1" data-reveal><b>1</b><div><h3 data-i18n="goal.l1.t">Cybersécurité</h3><p data-i18n="goal.l1.d">Tests d'intrusion, analyse de vulnérabilités, Security+ : protéger les systèmes.</p></div></li>
+            <li data-pin="2" data-reveal><b>2</b><div><h3 data-i18n="goal.l2.t">Réseaux</h3><p data-i18n="goal.l2.d">Schémas, VLAN, contrôle d'accès 802.1X : le terrain où je m'entraîne.</p></div></li>
+            <li data-pin="3" data-reveal><b>3</b><div><h3 data-i18n="goal.l3.t">Normes</h3><p data-i18n="goal.l3.d">ISO, NIST : les cadres qui structurent la sécurité.</p></div></li>
+            <li data-pin="4" data-reveal><b>4</b><div><h3 data-i18n="goal.l4.t">Audit</h3><p data-i18n="goal.l4.d">Checklists et contrôles : vérifier que les règles sont vraiment appliquées.</p></div></li>
+            <li data-pin="5" data-reveal><b>5</b><div><h3 data-i18n="goal.l5.t">Risques</h3><p data-i18n="goal.l5.d">Matrices de risques : décider quoi traiter en premier.</p></div></li>
+          </ol>
+          <p class="terminal" aria-hidden="true"><span class="prompt">$</span>sudo make me analyst GRC<span class="cursor"></span></p>
+        </div>
+        <figure class="poster" data-reveal="pop">
+          <div class="poster-img">
+            <img id="goal-img" src="assets/img/objectif.jpg" width="768" height="1375" alt="" data-i18n-alt="goal.alt">
+            <span class="pin" data-pin="1" aria-hidden="true">1</span>
+            <span class="pin" data-pin="2" aria-hidden="true">2</span>
+            <span class="pin" data-pin="3" aria-hidden="true">3</span>
+            <span class="pin" data-pin="4" aria-hidden="true">4</span>
+            <span class="pin" data-pin="5" aria-hidden="true">5</span>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="path" class="section edge bg-paper">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="path.title">Parcours</h2>
+        <ol id="path-list" class="timeline"></ol>
+        <h3 class="certs-title" data-reveal data-i18n="cert.title">Certifications</h3>
+        <div id="certs" class="certs"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section edge bg-soft">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="projects.title">Projets</h2>
+        <p class="prose lead" data-i18n="projects.intro">Mes projets viennent directement de mon GitHub : quand j'en publie un, il apparaît ici.</p>
+        <div id="filters" class="filters" role="group" aria-label="Filtrer les projets par catégorie" data-i18n-label="filter.label"></div>
+        <p id="projects-note" class="note" role="status" hidden></p>
+        <div id="projects-grid" class="projects"></div>
+      </div>
+    </section>
+
+    <section id="voice" class="section edge bg-blush">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="voice.title">Ma voix</h2>
+        <p class="prose lead" data-i18n="voice.intro">La cybersécurité demande de bien expliquer. J'ai appris à le faire à l'oral comme à l'écrit.</p>
+        <div class="voice-layout">
+          <figure class="voice-photo" data-reveal="pop">
+            <img src="assets/img/oratrice.jpg" width="960" height="641" alt="Justine prenant la parole derrière un pupitre, devant la bannière du Concours national d'art oratoire Ô féminin." data-i18n-alt="voice.photo.alt">
+            <figcaption class="caption" data-i18n="voice.caption">Prise de parole en public</figcaption>
+          </figure>
+          <div class="voice-lists">
+            <div data-reveal>
+              <div class="voice-head"><span class="pict" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                  <g stroke="#15110f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 30 v4 a10 10 0 0 0 20 0 v-4" fill="none"/>
+                    <path d="M32 44 v10 M23 54 h18" fill="none"/>
+                    <rect x="23" y="10" width="18" height="30" rx="9" fill="#1d3850"/>
+                    <path d="M45 6 h13 a4 4 0 0 1 4 4 v9 a4 4 0 0 1 -4 4 h-7 l-5 5 v-5 a4 4 0 0 1 -4 -4 v-9 a4 4 0 0 1 3 -4 z" fill="#fff"/>
+                  </g>
+                  <g stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M27 18 h10 M27 24 h10 M27 30 h10"/></g>
+                  <g fill="#15110f"><circle cx="48" cy="15" r="1.7"/><circle cx="53" cy="15" r="1.7"/><circle cx="58" cy="15" r="1.7"/></g>
+                </svg></span><h3 data-i18n="voice.speak">À l'oral</h3></div>
+              <ul id="voice-speak" class="plain"></ul>
+            </div>
+            <div data-reveal>
+              <div class="voice-head"><span class="pict" aria-hidden="true"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+                  <g stroke="#15110f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="8" y="10" width="34" height="46" rx="4" fill="#fff"/>
+                    <path d="M15 22 h20 M15 30 h20 M15 38 h12" fill="none" stroke-width="2"/>
+                    <path d="M49 10 L57 18 L31 45 L22 47 L24 38 Z" fill="#1d3850"/>
+                    <path d="M24 38 L31 45 L22 47 Z" fill="#e8dfd9"/>
+                    <path d="M47 12 L55 20" fill="none" stroke="#fff" stroke-width="2"/>
+                  </g>
+                </svg></span><h3 data-i18n="voice.write">À l'écrit</h3></div>
+              <ul id="voice-write" class="plain"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section edge bg-paper">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="blog.title">Blog</h2>
+        <p class="prose lead" data-i18n="blog.intro">Notes sur la cybersécurité, la GRC et ce que j'apprends en route.</p>
+        <div id="blog-list" class="posts"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section edge bg-copper section-contact">
+      <div class="wrap">
+        <h2 data-reveal data-i18n="contact.title">Contact</h2>
+        <p class="prose lead" data-i18n="contact.intro">Un stage, une question, une collaboration ? Écris-moi.</p>
+        <p class="mail-line"><span id="mail-address"></span></p>
+        <p class="contact-actions">
+          <a id="mail-link" class="btn btn-primary" href="#contact" data-i18n="contact.mail">Écrire un e-mail</a>
+          <button id="copy-mail" class="btn btn-ghost" type="button" data-i18n="contact.copy">Copier l'adresse</button>
+          <a id="linkedin-link" class="btn btn-ghost" href="#contact" target="_blank" rel="noopener noreferrer" hidden data-i18n="contact.linkedin">LinkedIn</a>
+          <a id="github-link" class="btn btn-ghost" href="https://github.com/" target="_blank" rel="noopener noreferrer" data-i18n="contact.github">GitHub</a>
+          <a class="btn btn-ghost" href="assets/cv/CV_Justine_Nutsule_FR.pdf" data-cv download data-i18n="contact.cv">Télécharger mon CV (PDF)</a>
+        </p>
+        <p id="copy-status" class="note" role="status"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="signature" aria-hidden="true">Justine</p>
+      <p>© <span id="year">2026</span> Justine Nutsule. <span data-i18n="footer.note">Site statique, sans cookies ni traceurs.</span>
+        <a href="security.txt" data-i18n="footer.security">Contact sécurité</a></p>
+    </div>
+  </footer>
+
+  <dialog id="reader" class="reader" aria-labelledby="reader-title">
+    <article>
+      <button id="reader-close" class="btn btn-ghost reader-close" type="button" data-i18n="blog.close">Fermer</button>
+      <p id="reader-date" class="post-date"></p>
+      <h2 id="reader-title"></h2>
+      <div id="reader-body" class="article"></div>
+    </article>
+  </dialog>
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>

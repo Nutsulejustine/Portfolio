@@ -56,63 +56,6 @@ const CATEGORIES = [
   { id: "site-web", topics: ["site-web"], fr: "Sites web", en: "Web" },
 ];
 
-// Projets mis en avant à la main (en plus de ceux qui viennent de GitHub).
-// Quand tu publies le dépôt correspondant, ajoute  url: "https://github.com/Nutsulejustine/nom-du-depot"
-const FEATURED = [
-  {
-    cat: "cyber-reseau",
-    title: {
-      fr: "Contrôle d'accès réseau (NAC) avec IEEE 802.1X",
-      en: "Network access control (NAC) with IEEE 802.1X",
-    },
-    text: {
-      fr: "Projet de recherche de mon mémoire de licence, mené pendant mon stage chez Lotié Télécom.",
-      en: "Research project for my bachelor's thesis, carried out during my internship at Lotié Télécom.",
-    },
-    tags: ["NAC", "802.1X"],
-    url: "",
-  },
-  {
-    cat: "cyber-reseau",
-    title: {
-      fr: "Tests d'intrusion en laboratoire",
-      en: "Penetration testing labs",
-    },
-    text: {
-      fr: "Exploitation de machines vulnérables (Kioptrix, Metasploitable) avec Kali Linux, Metasploit et Meterpreter, puis analyse de vulnérabilités avec Nessus.",
-      en: "Exploiting vulnerable machines (Kioptrix, Metasploitable) with Kali Linux, Metasploit and Meterpreter, then vulnerability analysis with Nessus.",
-    },
-    tags: ["Kali Linux", "Metasploit", "Nessus"],
-    url: "",
-  },
-  {
-    cat: "site-web",
-    title: {
-      fr: "Application web de gestion de stock",
-      en: "Stock management web application",
-    },
-    text: {
-      fr: "Une application web pour suivre et gérer un stock.",
-      en: "A web application to track and manage stock.",
-    },
-    tags: [],
-    url: "",
-  },
-  {
-    cat: "site-web",
-    title: {
-      fr: "Application no-code de numérisation",
-      en: "No-code digitisation application",
-    },
-    text: {
-      fr: "Une application créée sans code pour numériser un processus.",
-      en: "An application built without code to digitise a process.",
-    },
-    tags: ["no-code"],
-    url: "",
-  },
-];
-
 // Parcours (du plus récent au plus ancien). kind : "work" ou "edu"
 const PATH = [
   {

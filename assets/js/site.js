@@ -23,7 +23,6 @@ const CONFIG = {
   // Topic GitHub à ajouter sur un dépôt pour qu'il apparaisse sur le site
   topicPortfolio: "portfolio",
 };
-
 // Compétences affichées en pastilles
 const SKILLS = [
   {
@@ -55,7 +54,7 @@ const CATEGORIES = [
   { id: "cyber-reseau", topics: ["cybersecurite", "reseau"], fr: "Cybersécurité et réseau", en: "Cybersecurity and networking" },
   { id: "site-web", topics: ["site-web"], fr: "Sites web", en: "Web" },
 ];
-
+const FEATURED = [];
 // Parcours (du plus récent au plus ancien). kind : "work" ou "edu"
 const PATH = [
   {
